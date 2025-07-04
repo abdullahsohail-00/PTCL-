@@ -1,70 +1,107 @@
-# Getting Started with Create React App
+# PTCL Order Management System (PTCL OMS)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A modern, modular, and responsive web application for managing PTCL orders, users, and administration, built with React, Tailwind CSS, and lucide-react icons.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 🚀 Features
+- **Dashboard**: Overview of orders and users with live stats.
+- **Order Management**: Create and manage new/existing customer and corporate orders.
+- **User & Vendor Management**: Administer users, vendors, and related data.
+- **Quick Actions**: Fast access to common order and admin tasks.
+- **Recent Orders Table**: View and track recent order activity.
+- **Responsive UI**: Works seamlessly on desktop and mobile.
+- **Component-Based Architecture**: Clean, maintainable, and scalable codebase.
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 🛠️ Tech Stack
+- **React 19** (with functional components & hooks)
+- **Tailwind CSS 3** (utility-first styling)
+- **lucide-react** (icon library)
+- **Create React App** (project scaffolding)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## 📁 Folder Structure
+```
+ptcl_oms/
+├── public/                # Static assets and HTML template
+├── src/
+│   ├── components/        # All React components (modularized)
+│   │   ├── PTCLOrderManagement.jsx
+│   │   ├── TopNav.jsx
+│   │   ├── NoticeBanner.jsx
+│   │   ├── UserInfoForm.jsx
+│   │   ├── DashboardStats.jsx
+│   │   ├── QuickActions.jsx
+│   │   ├── RecentOrdersTable.jsx
+│   │   ├── Footer.jsx
+│   │   ├── FormSection.jsx
+│   │   ├── InputField.jsx
+│   │   ├── StatsCard.jsx
+│   │   └── OrderButton.jsx
+│   ├── App.js             # App entry point
+│   ├── index.js           # ReactDOM render
+│   └── ...                # Styles, tests, etc.
+├── tailwind.config.js     # Tailwind CSS config
+├── package.json           # Project metadata & scripts
+└── README.md              # Project documentation
+```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## ⚙️ Setup & Installation
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. **Clone the repository:**
+   ```sh
+   git clone <repo-url>
+   cd ptcl_oms
+   ```
+2. **Install dependencies:**
+   ```sh
+   npm install
+   ```
+3. **Start the development server:**
+   ```sh
+   npm start
+   ```
+   The app will be available at [http://localhost:3000](http://localhost:3000).
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 📝 Usage
+- The main app is rendered via `src/App.js`, which loads the `PTCLOrderManagement` component.
+- All UI sections are split into modular components under `src/components/` for easy maintenance and scalability.
+- Styling is handled via Tailwind CSS (see `tailwind.config.js`).
+- Icons are provided by [lucide-react](https://lucide.dev/).
 
-### `npm run eject`
+---
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## 📦 Available Scripts
+- `npm start` — Run the app in development mode
+- `npm run build` — Build for production
+- `npm test` — Run tests
+- `npm run eject` — Eject configuration (not recommended)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## 🤝 Contributing
+1. Fork the repository
+2. Create a new branch (`git checkout -b feature/your-feature`)
+3. Make your changes (keep code modular and follow existing patterns)
+4. Commit and push (`git commit -am 'Add new feature' && git push`)
+5. Open a Pull Request
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+---
 
-## Learn More
+## 📄 License
+This project is for educational and internal PTCL use only.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+---
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## 🙏 Acknowledgements
+- [React](https://reactjs.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [lucide-react](https://lucide.dev/)
+- [Create React App](https://create-react-app.dev/)
