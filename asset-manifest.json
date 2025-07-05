@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/ptcl_oms/static/css/main.e7013428.css",
-    "main.js": "/ptcl_oms/static/js/main.fb6e1555.js",
-    "static/js/453.5030a78e.chunk.js": "/ptcl_oms/static/js/453.5030a78e.chunk.js",
-    "index.html": "/ptcl_oms/index.html",
-    "main.e7013428.css.map": "/ptcl_oms/static/css/main.e7013428.css.map",
-    "main.fb6e1555.js.map": "/ptcl_oms/static/js/main.fb6e1555.js.map",
-    "453.5030a78e.chunk.js.map": "/ptcl_oms/static/js/453.5030a78e.chunk.js.map"
+    "main.css": "//abdullahsohail-00.github.io/PTCL-/static/css/main.e1c01278.css",
+    "main.js": "//abdullahsohail-00.github.io/PTCL-/static/js/main.c4544776.js",
+    "static/js/453.5030a78e.chunk.js": "//abdullahsohail-00.github.io/PTCL-/static/js/453.5030a78e.chunk.js",
+    "index.html": "//abdullahsohail-00.github.io/PTCL-/index.html",
+    "main.e1c01278.css.map": "//abdullahsohail-00.github.io/PTCL-/static/css/main.e1c01278.css.map",
+    "main.c4544776.js.map": "//abdullahsohail-00.github.io/PTCL-/static/js/main.c4544776.js.map",
+    "453.5030a78e.chunk.js.map": "//abdullahsohail-00.github.io/PTCL-/static/js/453.5030a78e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e7013428.css",
-    "static/js/main.fb6e1555.js"
+    "static/css/main.e1c01278.css",
+    "static/js/main.c4544776.js"
   ]
 }
